@@ -117,12 +117,12 @@ play :Gb4, release: 1.5 * tempo + overlap_release
 play :Bb3, release: 1.5 * tempo + overlap_release
 sleep 1.5 * tempo
 # 19 todo: verify
-play :Ab2, release: 3 * tempo + overlap_release
-play :Ab1, release: 3 * tempo + overlap_release
+play :A2, release: 3 * tempo + overlap_release # natural
+play :A1, release: 3 * tempo + overlap_release # natural
 sleep 0.5 * tempo
 play :Gb3, release: 0.8 * tempo + overlap_release
 sleep 0.8 * tempo
-play :Ab3, release: 0.8 * tempo + overlap_release
+play :A3, release: 0.8 * tempo + overlap_release
 play :Cb4, release: 1.2 * tempo + overlap_release
 play :Eb4, release: 1.2 * tempo + overlap_release
 sleep 0.8 * tempo
@@ -135,8 +135,8 @@ sleep 0.8 * tempo
 play :Gb3, release: 0.8 * tempo + overlap_release
 sleep 0.8 * tempo
 # 20
-play :A2, release: 3 * tempo + overlap_release # natural
-play :A1, release: 3 * tempo + overlap_release # natural
+play :Ab2, release: 3 * tempo + overlap_release # flat
+play :Ab1, release: 3 * tempo + overlap_release # flat
 sleep 0.5 * tempo
 play :Gb3, release: 0.5 * tempo + overlap_release
 play :Cb4, release: 0.5 * tempo + overlap_release
@@ -163,4 +163,106 @@ play :Cb4, release: 1.5 * tempo + overlap_release
 play :Eb4, release: 1.5 * tempo + overlap_release
 sleep 1.5 * tempo
 # 21
+play :Bb2, release: 3 * tempo + overlap_release
+play :Bb1, release: 3 * tempo + overlap_release
+sleep 0.5 * tempo
+play :Gb3, release: 0.8 * tempo + overlap_release
+sleep 0.8 * tempo
+play :Ab3, release: 0.8 * tempo + overlap_release
+play :Cb4, release: 1.2 * tempo + overlap_release
+play :Eb4, release: 1.2 * tempo + overlap_release
+sleep 0.8 * tempo
+play :Cb4, release: 0.8 * tempo + overlap_release
+sleep 0.8 * tempo
+play :Bb3, release: 0.8 * tempo + overlap_release
+play :Db4, release: 1.2 * tempo + overlap_release
+play :Gb4, release: 1.2 * tempo + overlap_release
+sleep 0.8 * tempo
+play :Gb3, release: 0.8 * tempo + overlap_release
+sleep 0.8 * tempo
+# 22
+play :Cb3, release: 3 * tempo + overlap_release # natural
+play :Cb2, release: 3 * tempo + overlap_release # natural
+sleep 0.5 * tempo
+play :Gb3, release: 0.5 * tempo + overlap_release
+play :Cb4, release: 0.5 * tempo + overlap_release
+play :Eb4, release: 0.5 * tempo + overlap_release
+sleep 0.5 * tempo
+play :Gb3, release: 0.5 * tempo + overlap_release
+play :Cb4, release: 0.5 * tempo + overlap_release
+play :Eb4, release: 0.5 * tempo + overlap_release
+sleep 0.5 * tempo
+play :Gb3, release: 0.5 * tempo + overlap_release
+play :Cb4, release: 0.5 * tempo + overlap_release
+play :Eb4, release: 0.5 * tempo + overlap_release
+sleep 0.5 * tempo
+play :Gb3, release: 0.5 * tempo + overlap_release
+play :Cb4, release: 0.5 * tempo + overlap_release
+play :Eb4, release: 0.5 * tempo + overlap_release
+sleep 0.5 * tempo
+play :Ab3, release: 0.5 * tempo + overlap_release
+play :Cb4, release: 0.5 * tempo + overlap_release
+play :Fb4, release: 0.5 * tempo + overlap_release
+sleep 0.5 * tempo
+play :Gb3, release: 1.5 * tempo + overlap_release
+play :Cb4, release: 1.5 * tempo + overlap_release
+play :Eb4, release: 1.5 * tempo + overlap_release
+sleep 1.5 * tempo
+# 23
+play :Db3, release: 3 * tempo + overlap_release
+play :Db2, release: 3 * tempo + overlap_release
+sleep 0.5 * tempo
+play :Gb3, release: 0.8 * tempo + overlap_release
+sleep 0.8 * tempo
+play :Ab3, release: 0.8 * tempo + overlap_release
+play :Cb4, release: 1.2 * tempo + overlap_release
+play :Eb4, release: 1.2 * tempo + overlap_release
+sleep 0.8 * tempo
+play :Eb4, release: 0.8 * tempo + overlap_release
+sleep 0.8 * tempo
+play :Db4, release: 0.8 * tempo + overlap_release
+play :Gb4, release: 1.2 * tempo + overlap_release
+play :Bb4, release: 1.2 * tempo + overlap_release
+sleep 0.8 * tempo
+play :Bb3, release: 0.8 * tempo + overlap_release
+sleep 0.8 * tempo
+# 24
+play :Eb3, release: 3 * tempo + overlap_release
+play :Eb2, release: 3 * tempo + overlap_release
+sleep 0.5 * tempo
+play :Bb3, release: 0.5 * tempo + overlap_release
+play :Db4, release: 0.5 * tempo + overlap_release
+play :Gb4, release: 0.5 * tempo + overlap_release
+sleep 0.5 * tempo
+play :Bb3, release: 0.5 * tempo + overlap_release
+play :Db4, release: 0.5 * tempo + overlap_release
+play :Gb4, release: 0.5 * tempo + overlap_release
+sleep 0.5 * tempo
+play :Bb3, release: 0.5 * tempo + overlap_release
+play :Db4, release: 0.5 * tempo + overlap_release
+play :Gb4, release: 0.5 * tempo + overlap_release
+sleep 0.5 * tempo
+play :Bb3, release: 0.5 * tempo + overlap_release
+play :Db4, release: 0.5 * tempo + overlap_release
+play :Gb4, release: 0.5 * tempo + overlap_release
+sleep 0.5 * tempo
+play :Cb4, release: 0.5 * tempo + overlap_release
+play :Eb4, release: 0.5 * tempo + overlap_release
+play :Ab4, release: 0.5 * tempo + overlap_release
+sleep 0.5 * tempo
+play :Bb3, release: 0.5 * tempo + overlap_release
+play :Db4, release: 0.5 * tempo + overlap_release
+play :Gb4, release: 0.5 * tempo + overlap_release
+sleep 0.5 * tempo
+play :Db4, release: 0.5 * tempo + overlap_release
+play :Gb4, release: 0.5 * tempo + overlap_release
+play :Bb4, release: 0.5 * tempo + overlap_release
+sleep 0.5 * tempo
+play :Eb4, release: 0.5 * tempo + overlap_release
+play :Gb4, release: 0.5 * tempo + overlap_release
+play :Bb4, release: 0.5 * tempo + overlap_release
+sleep 0.5 * tempo
+# 25
+
+
 # End of page 2

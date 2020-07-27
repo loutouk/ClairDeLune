@@ -1,4 +1,3 @@
-
 overlap_release = 0.2
 tempo = 1
 #use_synth :dark_ambience
@@ -6,6 +5,7 @@ tempo = 1
 # Treble clef
 in_thread do
   
+  # 1
   sleep 0.5 * tempo
   sleep 0.5 * tempo
   play :Ab5, release: 2 * tempo + overlap_release
@@ -14,6 +14,7 @@ in_thread do
   play :F5, release: 2 * tempo + overlap_release
   play :Db5, release: 2 * tempo + overlap_release
   sleep 2 * tempo
+  # 2
   play :Eb5, release: 0.5 * tempo + overlap_release
   play :C5, release: 0.5 * tempo + overlap_release
   sleep 0.5 * tempo
@@ -23,6 +24,7 @@ in_thread do
   play :Eb5, release: 3.5 * tempo + overlap_release
   play :C5, release: 3.5 * tempo + overlap_release
   sleep 3.5 * tempo
+  # 3
   play :Bb4, release: 1 * tempo + overlap_release
   play :Db5, release: 1 * tempo + overlap_release
   sleep 1 * tempo
@@ -188,29 +190,29 @@ in_thread do
   sleep 0.5 * tempo
   play :Eb5, release: 0.5 * tempo + overlap_release
   sleep 0.5 * tempo
-  play :Db5, release: 2 * tempo + overlap_release
-  sleep 2 * tempo
-  play :Bb4, release: 0.5 * tempo + overlap_release
+  play :Db5, release: 0.5 * tempo + overlap_release
   sleep 0.5 * tempo
+  play :Bb4, release: 2 * tempo + overlap_release
+  sleep 2 * tempo
   # 15
-  
-  
-  
-  
+  # End of first page
 end
 
-
 # Bass clef
+# 1
 sleep 0.5 * tempo
 play :F4, release: 4 * tempo + overlap_release
 play :Ab4, release: 4 * tempo + overlap_release
 sleep 4 * tempo
+# 2
 play :G4, release: 4.5 * tempo + overlap_release
-play :A4, release: 4.5 * tempo + overlap_release
+play :A4, release: 4.5 * tempo + overlap_release # natural
 sleep 4.5 * tempo
+# 3
 play :F4, release: 4.5 * tempo + overlap_release
-play :Ab4, release: 4.5 * tempo + overlap_release
+play :Ab4, release: 4.5 * tempo + overlap_release # flat
 sleep 4.5 * tempo
+# 4
 play :Eb4, release: 4.5 * tempo + overlap_release
 play :Gb4, release: 4.5 * tempo + overlap_release
 sleep 4.5 * tempo
@@ -221,19 +223,21 @@ sleep 3 * tempo
 play :Eb4, release: 1.5 * tempo + overlap_release
 play :C4, release: 1.5 * tempo + overlap_release
 sleep 1.5 * tempo
+# 6
 play :Db4, release: 3 * tempo + overlap_release
 play :Bb3, release: 3 * tempo + overlap_release
 sleep 3 * tempo
 play :C4, release: 1.5 * tempo + overlap_release
-play :A3, release: 1.5 * tempo + overlap_release
+play :A3, release: 1.5 * tempo + overlap_release # natural
 sleep 1.5 * tempo
+# 7
 play :Bb3, release: 4.5 * tempo + overlap_release
 play :Ab3, release: 3 * tempo + overlap_release
 sleep 3 * tempo
 play :Gb3, release: 1.5 * tempo + overlap_release
 sleep 1.5 * tempo
 # eighth measure
-play :Ab3, release: 3 * tempo + overlap_release
+play :A3, release: 3 * tempo + overlap_release
 play :Fb3, release: 3 * tempo + overlap_release
 sleep 3 * tempo
 play :Gb3, release: 1.5 * tempo + overlap_release
@@ -283,7 +287,7 @@ sleep 4 * tempo
 # 13
 play :Ab2, release: 4.5 * tempo + overlap_release
 sleep 0.5 * tempo
-play :Cb4, release: 1 * tempo + overlap_release # all C go flat unitl natural symbol
+play :Cb4, release: 1 * tempo + overlap_release # all C go flat until natural symbol
 play :F3, release: 1 * tempo + overlap_release
 sleep 1 * tempo
 play :F4, release: 2 * tempo + overlap_release
@@ -302,15 +306,5 @@ play :Eb4, release: 2 * tempo + overlap_release
 sleep 2 * tempo
 play :Db4, release: 2 * tempo + overlap_release
 sleep 2 * tempo
+# 15
 # End of the first page
-
-
-
-
-
-
-
-
-
-
-
