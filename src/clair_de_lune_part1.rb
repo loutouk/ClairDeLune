@@ -1,7 +1,7 @@
 # Page 1
 
 overlap_release = 0.2
-tempo = 1
+tempo = 0.9
 
 # Treble clef
 in_thread do
