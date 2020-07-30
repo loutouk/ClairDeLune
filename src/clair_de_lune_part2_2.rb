@@ -122,8 +122,23 @@ in_thread do
   # The 3 missing notes are coded in the Bass clef thread for sync sakes
   sleep 1.5
   # 27
-  
-  
+  play :Fb4, release: 3 * tempo + overlap_release
+  play :Ab4, release: 3 * tempo + overlap_release
+  sleep 3 * tempo
+  play :Ab4, release: 1.5 * tempo + overlap_release
+  play :Cb5, release: 1 * tempo + overlap_release
+  sleep 1 * tempo
+  play :Db5, release: 0.5 * tempo + overlap_release
+  sleep 0.5 * tempo
+  # 28
+  play :F4, release: 3 * tempo + overlap_release # natural
+  play :Ab4, release: 3 * tempo + overlap_release
+  sleep 3 * tempo
+  play :Ab4, release: 1 * tempo + overlap_release
+  play :Cb5, release: 1 * tempo + overlap_release
+  sleep 1 * tempo
+  play :Ab4, release: 0.5 * tempo + overlap_release
+  sleep 0.5 * tempo
   # End of page 2 part 2
 end
 
@@ -258,6 +273,77 @@ sleep trill_timing * tempo + 0.40
 play :Ab5, release: 1.5 * tempo + overlap_release
 sleep 2 - (trill_timing * 6 * tempo) - 1
 # 27
-
-
+play :Db2, release: 0.375 * tempo + overlap_release
+sleep 0.25 * tempo
+play :Ab2, release: 0.25 * tempo + overlap_release
+sleep 0.25 * tempo
+play :Db3, release: 0.25 * tempo + overlap_release
+sleep 0.25 * tempo
+play :Fb3, release: 0.25 * tempo + overlap_release
+sleep 0.25 * tempo
+play :Ab3, release: 0.25 * tempo + overlap_release
+sleep 0.25 * tempo
+play :Db4, release: 0.25 * tempo + overlap_release
+sleep 0.25 * tempo
+play :Fb2, release: 0.375 * tempo + overlap_release
+sleep 0.25 * tempo
+play :Cb3, release: 0.25 * tempo + overlap_release
+sleep 0.25 * tempo
+play :Fb3, release: 0.25 * tempo + overlap_release
+sleep 0.25 * tempo
+play :Ab3, release: 0.25 * tempo + overlap_release
+sleep 0.25 * tempo
+play :Cb4, release: 0.25 * tempo + overlap_release
+sleep 0.25 * tempo
+play :Fb4, release: 0.25 * tempo + overlap_release
+sleep 0.25 * tempo
+play :Ab2, release: 0.375 * tempo + overlap_release
+sleep 0.25 * tempo
+play :Fb3, release: 0.25 * tempo + overlap_release # flat
+sleep 0.25 * tempo
+play :Ab3, release: 0.25 * tempo + overlap_release
+sleep 0.25 * tempo
+play :Cb4, release: 0.25 * tempo + overlap_release # flat
+sleep 0.25 * tempo
+play :Fb4, release: 0.25 * tempo + overlap_release # flat
+sleep 0.25 * tempo
+play :Ab4, release: 0.25 * tempo + overlap_release
+sleep 0.25 * tempo
+# 28
+play :Db2, release: 0.375 * tempo + overlap_release
+sleep 0.25 * tempo
+play :Ab2, release: 0.25 * tempo + overlap_release
+sleep 0.25 * tempo
+play :Db3, release: 0.25 * tempo + overlap_release
+sleep 0.25 * tempo
+play :Fb3, release: 0.25 * tempo + overlap_release
+sleep 0.25 * tempo
+play :Ab3, release: 0.25 * tempo + overlap_release
+sleep 0.25 * tempo
+play :Db4, release: 0.25 * tempo + overlap_release
+sleep 0.25 * tempo
+play :Fb2, release: 0.375 * tempo + overlap_release
+sleep 0.25 * tempo
+play :Cb3, release: 0.25 * tempo + overlap_release
+sleep 0.25 * tempo
+play :Fb3, release: 0.25 * tempo + overlap_release
+sleep 0.25 * tempo
+play :Ab3, release: 0.25 * tempo + overlap_release
+sleep 0.25 * tempo
+play :Cb4, release: 0.25 * tempo + overlap_release
+sleep 0.25 * tempo
+play :Fb4, release: 0.25 * tempo + overlap_release
+sleep 0.25 * tempo
+play :Ab2, release: 0.375 * tempo + overlap_release
+sleep 0.25 * tempo
+play :Fb3, release: 0.25 * tempo + overlap_release # flat
+sleep 0.25 * tempo
+play :Ab3, release: 0.25 * tempo + overlap_release
+sleep 0.25 * tempo
+play :Cb4, release: 0.25 * tempo + overlap_release # flat
+sleep 0.25 * tempo
+play :Ab4, release: 0.25 * tempo + overlap_release # flat
+sleep 0.25 * tempo
+play :b, release: 0.25 * tempo + overlap_release
+sleep 0.25 * tempo
 # End of page 2 part 2
