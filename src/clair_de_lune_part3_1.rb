@@ -168,7 +168,7 @@ play :Eb3, release: 0.25 * tempo + overlap_release
 sleep 0.25 * tempo
 play :G3, release: 0.25 * tempo + overlap_release
 sleep 0.25 * tempo
-play :Bb3, release: 0.25 * tempo + overlap_release # natural
+play :Bb3, release: 0.25 * tempo + overlap_release
 sleep 0.25 * tempo
 play :Cb4, release: 0.25 * tempo + overlap_release
 sleep 0.25 * tempo
@@ -180,7 +180,7 @@ play :Db3, release: 0.25 * tempo + overlap_release
 sleep 0.25 * tempo
 play :G3, release: 0.25 * tempo + overlap_release
 sleep 0.25 * tempo
-play :Bb3, release: 0.25 * tempo + overlap_release # natural
+play :Bb3, release: 0.25 * tempo + overlap_release
 sleep 0.25 * tempo
 play :Db4, release: 0.25 * tempo + overlap_release
 sleep 0.25 * tempo
@@ -192,7 +192,7 @@ play :Cb3, release: 0.25 * tempo + overlap_release
 sleep 0.25 * tempo
 play :Fb3, release: 0.25 * tempo + overlap_release
 sleep 0.25 * tempo
-play :Ab3, release: 0.25 * tempo + overlap_release # natural
+play :Ab3, release: 0.25 * tempo + overlap_release
 sleep 0.25 * tempo
 play :Cb4, release: 0.5 * tempo + overlap_release
 sleep 0.5 * tempo
@@ -203,7 +203,7 @@ play :Eb3, release: 0.25 * tempo + overlap_release
 sleep 0.25 * tempo
 play :G3, release: 0.25 * tempo + overlap_release
 sleep 0.25 * tempo
-play :Bb3, release: 0.25 * tempo + overlap_release # natural
+play :Bb3, release: 0.25 * tempo + overlap_release
 sleep 0.25 * tempo
 play :Cb4, release: 0.25 * tempo + overlap_release
 sleep 0.25 * tempo
@@ -215,7 +215,7 @@ play :Db3, release: 0.25 * tempo + overlap_release
 sleep 0.25 * tempo
 play :G3, release: 0.25 * tempo + overlap_release
 sleep 0.25 * tempo
-play :Bb3, release: 0.25 * tempo + overlap_release # natural
+play :Bb3, release: 0.25 * tempo + overlap_release
 sleep 0.25 * tempo
 play :Db4, release: 0.25 * tempo + overlap_release
 sleep 0.25 * tempo
