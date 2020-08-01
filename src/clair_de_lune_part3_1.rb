@@ -2,7 +2,7 @@
 
 overlap_release = 0.15
 default_amp = 1
-tempo = 0.7
+tempo = 0.65
 trill_timing = 0.14
 
 # Treble clef

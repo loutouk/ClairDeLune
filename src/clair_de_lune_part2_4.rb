@@ -35,7 +35,7 @@ in_thread do
   sleep 3 - (trill_timing * 8 * tempo)
   # The 3 missing notes are coded in the Bass clef thread for sync sakes
   sleep 1.5
-  tempo = 0.7
+  tempo = 0.65
   default_amp = 1
   # 27
   play :Fb4, release: 3 * tempo + overlap_release, amp: default_amp
@@ -107,7 +107,7 @@ sleep trill_timing * tempo + 0.40
 play :Ab5, release: 1.5 * tempo + overlap_release, amp: default_amp - 0.40
 sleep 2 - (trill_timing * 6 * tempo) - 1
 # 27
-tempo = 0.7
+tempo = 0.65
 default_amp = 1
 play :Db2, release: 0.375 * tempo + overlap_release, amp: default_amp
 sleep 0.25 * tempo

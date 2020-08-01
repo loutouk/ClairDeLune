@@ -2,7 +2,7 @@
 
 overlap_release = 0.15
 default_amp = 1
-tempo = 0.7
+tempo = 0.65
 trill_timing = 0.14
 
 # Treble clef
@@ -18,7 +18,7 @@ in_thread do
   play :Fb4, release: 0.25 * tempo + overlap_release, amp: default_amp
   sleep 0.25 * tempo
   # 33
-  play :G5, release: 2.25 * tempo + overlap_release, amp: default_amp
+  play :G5, release: 2.25 * tempo + overlap_release, amp: default_amp - 0.2
   sleep 1.5 * tempo
   sleep 0.25 * tempo
   play :G4, release: 0.25 * tempo + overlap_release, amp: default_amp
